@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             Log.v(TAG, "${numerator / denominator}")
             denominator--
             Log.d(TAG, "$denominator")
+            Log.d(TAG, "$numerator")
         }
     }
 
